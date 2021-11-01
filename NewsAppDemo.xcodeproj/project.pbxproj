@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F20E6391273012B0001D50AA /* NewsAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20E6391273012B0001D50AA /* NewsAppDemoUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppDemoUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20E6394273012B0001D50AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F20E6396273012B0001D50AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F20E6398273012B0001D50AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		F20E6392273012B0001D50AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F20E6391273012B0001D50AA /* NewsAppDemo.app */,
+				F20E6391273012B0001D50AA /* NewsAppDemoUIKit.app */,
 				F20E63AA273012B3001D50AA /* NewsAppDemoTests.xctest */,
 				F20E63B4273012B3001D50AA /* NewsAppDemoUITests.xctest */,
 			);
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F20E6390273012B0001D50AA /* NewsAppDemo */ = {
+		F20E6390273012B0001D50AA /* NewsAppDemoUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F20E63BE273012B3001D50AA /* Build configuration list for PBXNativeTarget "NewsAppDemo" */;
+			buildConfigurationList = F20E63BE273012B3001D50AA /* Build configuration list for PBXNativeTarget "NewsAppDemoUIKit" */;
 			buildPhases = (
 				F20E638D273012B0001D50AA /* Sources */,
 				F20E638E273012B0001D50AA /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = NewsAppDemo;
+			name = NewsAppDemoUIKit;
 			productName = NewsAppDemo;
-			productReference = F20E6391273012B0001D50AA /* NewsAppDemo.app */;
+			productReference = F20E6391273012B0001D50AA /* NewsAppDemoUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F20E63A9273012B3001D50AA /* NewsAppDemoTests */ = {
@@ -195,6 +195,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = therakiburkhan.me;
 				TargetAttributes = {
 					F20E6390273012B0001D50AA = {
 						CreatedOnToolsVersion = 13.1;
@@ -222,7 +223,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F20E6390273012B0001D50AA /* NewsAppDemo */,
+				F20E6390273012B0001D50AA /* NewsAppDemoUIKit */,
 				F20E63A9273012B3001D50AA /* NewsAppDemoTests */,
 				F20E63B3273012B3001D50AA /* NewsAppDemoUITests */,
 			);
@@ -290,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		F20E63AC273012B3001D50AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F20E6390273012B0001D50AA /* NewsAppDemo */;
+			target = F20E6390273012B0001D50AA /* NewsAppDemoUIKit */;
 			targetProxy = F20E63AB273012B3001D50AA /* PBXContainerItemProxy */;
 		};
 		F20E63B6273012B3001D50AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F20E6390273012B0001D50AA /* NewsAppDemo */;
+			target = F20E6390273012B0001D50AA /* NewsAppDemoUIKit */;
 			targetProxy = F20E63B5273012B3001D50AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,10 +443,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
 				DEVELOPMENT_TEAM = 3M836W6KGH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsAppDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "News App Demo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -456,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.therakiburkhan.app.NewsAppDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = me.therakiburkhan.app.newsAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,10 +472,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
 				DEVELOPMENT_TEAM = 3M836W6KGH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsAppDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "News App Demo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -484,7 +487,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.therakiburkhan.app.NewsAppDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = me.therakiburkhan.app.newsAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -600,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F20E63BE273012B3001D50AA /* Build configuration list for PBXNativeTarget "NewsAppDemo" */ = {
+		F20E63BE273012B3001D50AA /* Build configuration list for PBXNativeTarget "NewsAppDemoUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F20E63BF273012B3001D50AA /* Debug */,
